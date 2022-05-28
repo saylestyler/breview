@@ -13,6 +13,8 @@ https://formulae.brew.sh/docs/api/
 **deployment** 
 
 on merges and pushes in main, heroku deploys it, see https://dashboard.heroku.com/apps/breview-preview/deploy/github
+...
+but as of right now i have to drag the dist to the root for it to work TODO hehe
 
 **mvp**
 
