@@ -4,6 +4,7 @@
   "description": "used car dealership of new brew",
   "type": "module",
   "scripts": {
+    "heroku-build-and-stage-deploy": "rm -rf dist; cd client; npm run build; mv dist ..; git add .",
     "dev": "node server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
