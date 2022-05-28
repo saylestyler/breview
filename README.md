@@ -1,20 +1,25 @@
 # breview
 
-used car dealership of new brew 
+used car dealership of new brew
 
 https://formulae.brew.sh/docs/api/
 
 **how to**
 
 1. run npm run build in client
-2. drag /dist folder to root 
+2. drag /dist folder to root
 3. node server.js serves vue app on port 8080
 
-**deployment** 
+**deployment**
+
+1. run `npm run heroku-build-and-stage-deploy'
+
+   this
+     - removes the dist in root
+     - runs the vue build
+     - moves the new dist to root
 
 on merges and pushes in main, heroku deploys it, see https://dashboard.heroku.com/apps/breview-preview/deploy/github
-...
-but as of right now i have to drag the dist to the root for it to work TODO hehe
 
 **mvp**
 
@@ -25,7 +30,7 @@ but as of right now i have to drag the dist to the root for it to work TODO hehe
 - show cask / formula / taps separately
 - sort by install / other analytics categories https://formulae.brew.sh/api/analytics/install/30d.json
 - "card actions" eg tap to copy link for installation of any card, tweet abt, the usuals
-- 
+-
 
 **notes**
 
