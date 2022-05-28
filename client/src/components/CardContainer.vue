@@ -46,6 +46,8 @@ export default defineComponent({
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="sass">
 .card-container
+  margin: 0px auto // centers the card container
+  padding: 20px // space in between container and the cards, mostly for top beneath logo spacing
   max-width: 1000px
   border: 1px solid gray
   display: flex
