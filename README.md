@@ -4,6 +4,12 @@ used car dealership of new brew
 
 https://formulae.brew.sh/docs/api/
 
+**how to**
+
+1. run npm run build in client
+2. drag /dist folder to root 
+3. node server.js serves vue app on port 8080
+
 **mvp**
 
 - show 9 tiles of 9 results hard coded on an index file
