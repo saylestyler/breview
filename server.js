@@ -10,6 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 //we are configuring dist to serve site files
+// making edit to test deployment
 app.use("/", serveStatic(join(__dirname, "/dist")));
 
 // this * route is to serve project on different page routes except root `/`

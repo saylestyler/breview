@@ -10,6 +10,10 @@ https://formulae.brew.sh/docs/api/
 2. drag /dist folder to root 
 3. node server.js serves vue app on port 8080
 
+**deployment** 
+
+on merges and pushes in main, heroku deploys it, see https://dashboard.heroku.com/apps/breview-preview/deploy/github
+
 **mvp**
 
 - show 9 tiles of 9 results hard coded on an index file
